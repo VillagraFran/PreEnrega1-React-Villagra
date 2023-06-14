@@ -1,4 +1,3 @@
-
 export const Navbar = (pros) => (
     <nav>
         <h2>MY-SHOP</h2>

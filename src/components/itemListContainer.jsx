@@ -7,7 +7,7 @@ const ItemList = (props) => {
     )
 }
 
-export const ItemListContainer = (props) => {
+export const ItemListContainer = () => {
     return(
         <section>
             <ul>

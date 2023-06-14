@@ -1,4 +1,4 @@
-export const Navbar = (pros) => (
+export const Navbar = () => (
     <nav>
         <h2>MY-SHOP</h2>
         <ul>

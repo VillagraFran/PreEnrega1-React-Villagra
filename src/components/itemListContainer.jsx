@@ -7,9 +7,13 @@ const ItemList = (props) => {
     )
 }
 
-export const ItemListContainer = () => {
+export const ItemListContainer = (props) => {
     return(
         <section>
+            <div>
+            <h2>CARRITO</h2>
+            <button className="btn-close" onClick={props.event}>X</button>
+            </div>
             <ul>
                 <>
                     <ItemList name="Auriculares inalámbricos" price="$16000"/>

@@ -17,13 +17,7 @@ function App() {
       </header>
       <main>
         {showCart && (
-          <>
-            <div>
-            <h2>CARRITO</h2>
-            <button className="btn-close" onClick={closeCart}>X</button>
-            </div>
-            <ItemListContainer event="closeCart"/>
-          </>
+            <ItemListContainer event={closeCart}/>
         )}
       </main>
     </>
